@@ -17,9 +17,6 @@ export default function SearchBar({returnToFirstPage}){
         dispatch(searchByName(name))
         .then(() =>{ returnToFirstPage(); })        
     };
-    function dontExist(){
-
-    };
 
     return (
         <div className={styles.searchContainer}>
