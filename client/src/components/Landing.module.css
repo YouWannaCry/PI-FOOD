@@ -22,9 +22,12 @@
     height: 2em;
     background-image: linear-gradient(to bottom, #30cfd0 0%, #330867 100%);
     border-left: 0.08em solid;
-    position: relative;
+    position: absolute;
+    top: 15%;
+    left: 45%;
     margin-top: 0.8em;
     cursor: pointer;
+    color: white;
 }
 .button::before,
 .button::after

@@ -24,9 +24,9 @@
   }
   
   .cardContainer {
-    margin: 25px auto 0;
+    margin: 25px auto;
     position: relative;
-    width: 692px;
+    width: 670px;
   }
   
   .card {
@@ -35,11 +35,11 @@
     position: relative;
     box-shadow: 0 0 5px rgba(75, 75, 75, .07);
     z-index: 1;
+    position: relative;
   }
   
   .cardBody {
     display: inline-block;
-    /* float: left; */
     width: 310px;
   }
   
@@ -83,7 +83,6 @@
     width: 75%;
   }
 
-  
   .cardMedia {
     float: right;
   }

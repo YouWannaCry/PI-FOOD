@@ -21,6 +21,9 @@ export default function Paginate({ recipesPerPage, recipes, paginate, currentPag
                         </li>
                     ))
                 }
+                <button
+                    onClick={(currentPage = currentPage+1) => paginate(pageNum)}>
+                </button>
             </ul>
         </div>
     )

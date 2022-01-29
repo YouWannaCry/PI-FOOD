@@ -41,7 +41,7 @@ export default function RecipeCreate() {
 
 
     const [post, setPost] = useState({
-        name: '',
+        name: "",
         summary: '',
         score: 0,
         healthScore: 0,
